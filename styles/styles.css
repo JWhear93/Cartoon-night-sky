@@ -80,10 +80,10 @@ body {
   -ms-transform: scale(0.25);
   -moz-transform: scale(0.25);
   -webkit-transform: scale(0.25);
-  -o-animation: spin 6s linear infinite;
-  -ms-animation: spin 6s linear infinite;
-  -moz-animation: spin 6s linear infinite;
-  -webkit-animation: spin 6s linear infinite;
+  -o-animation: spin 6.8s linear infinite;
+  -ms-animation: spin 6.8s linear infinite;
+  -moz-animation: spin 6.8s linear infinite;
+  -webkit-animation: spin 6.8s linear infinite;
 }
 .s3 {
   top: -250px;
@@ -92,10 +92,10 @@ body {
   -ms-transform: scale(0.25);
   -moz-transform: scale(0.25);
   -webkit-transform: scale(0.25);
-  -o-animation: spin 5s linear infinite;
-  -ms-animation: spin 5s linear infinite;
-  -moz-animation: spin 5s linear infinite;
-  -webkit-animation: spin 5s linear infinite;
+  -o-animation: spin 5.8s linear infinite;
+  -ms-animation: spin 5.8s linear infinite;
+  -moz-animation: spin 5.8s linear infinite;
+  -webkit-animation: spin 5.8s linear infinite;
 }
 .s4 {
   left: 560px;
@@ -116,10 +116,10 @@ body {
   -ms-transform: scale(0.2);
   -moz-transform: scale(0.2);
   -webkit-transform: scale(0.2);
-  -o-animation: spin 5s linear infinite;
-  -ms-animation: spin 5s linear infinite;
-  -moz-animation: spin 5s linear infinite;
-  -webkit-animation: spin 5s linear infinite;
+  -o-animation: spin 4.5s linear infinite;
+  -ms-animation: spin 4.5s linear infinite;
+  -moz-animation: spin 4.5s linear infinite;
+  -webkit-animation: spin 4.5s linear infinite;
 }
 .s6 {
   left: 760px;
@@ -128,10 +128,10 @@ body {
   -ms-transform: scale(0.2);
   -moz-transform: scale(0.2);
   -webkit-transform: scale(0.2);
-  -o-animation: spin 6s linear infinite;
-  -ms-animation: spin 6s linear infinite;
-  -moz-animation: spin 6s linear infinite;
-  -webkit-animation: spin 6s linear infinite;
+  -o-animation: spin 6.2s linear infinite;
+  -ms-animation: spin 6.2s linear infinite;
+  -moz-animation: spin 6.2s linear infinite;
+  -webkit-animation: spin 6.2s linear infinite;
 }
 .s7 {
   left: 880px;
@@ -140,10 +140,10 @@ body {
   -ms-transform: scale(0.3);
   -moz-transform: scale(0.3);
   -webkit-transform: scale(0.3);
-  -o-animation: spin 5s linear infinite;
-  -ms-animation: spin 5s linear infinite;
-  -moz-animation: spin 5s linear infinite;
-  -webkit-animation: spin 5s linear infinite;
+  -o-animation: spin 5.5s linear infinite;
+  -ms-animation: spin 5.5s linear infinite;
+  -moz-animation: spin 5.5s linear infinite;
+  -webkit-animation: spin 5.5s linear infinite;
 }
 .s8 {
   left: 1080px;
@@ -152,10 +152,10 @@ body {
   -ms-transform: scale(0.25);
   -moz-transform: scale(0.25);
   -webkit-transform: scale(0.25);
-  -o-animation: spin 6s linear infinite;
-  -ms-animation: spin 6s linear infinite;
-  -moz-animation: spin 6s linear infinite;
-  -webkit-animation: spin 6s linear infinite;
+  -o-animation: spin 6.5s linear infinite;
+  -ms-animation: spin 6.5s linear infinite;
+  -moz-animation: spin 6.5s linear infinite;
+  -webkit-animation: spin 6.5s linear infinite;
 }
 .s9 {
   left: 1350px;
@@ -179,21 +179,21 @@ body {
   -o-animation: spin 6s linear infinite;
   -ms-animation: spin 6s linear infinite;
   -moz-animation: spin 6s linear infinite;
-  -webkit-animation: spin 6s linear infinite;
-  
+  -webkit-animation: spin 6s linear infinite; 
 }
+
 @keyframes spin {
-    0% {-webkit-transform: rotate(0deg) scale(0.1); transform:rotate(0deg) scale(0.1);}
-    50% {-webkit-transform: rotate(180deg) scale(0.2); transform:rotate(180deg) scale(0.2);}
-    100% {-webkit-transform: rotate(360deg) scale(0.1); transform:rotate(360deg) scale(0.1);}
+    0% {-webkit-transform: rotate(0deg) scale(0.1) translate(0, 0px); transform:rotate(0deg) scale(0.1) translate(0, 0px);}
+    50% {-webkit-transform: rotate(180deg) scale(0.2) translate(10, 20px); transform:rotate(180deg) scale(0.2) translate(10, 20px);}
+    100% {-webkit-transform: rotate(360deg) scale(0.1) translate(0, -0px); transform:rotate(360deg) scale(0.1) translate(0, -0px);}
 }
 @-moz-keyframes spin {
-    0% {-moz-transform: rotate(0deg) scale(0.1); }
-    50% {-moz-transform: rotate(180deg) scale(0.2); }
-    100% {-moz-transform: rotate(360deg) scale(0.1);}
+    0% {-moz-transform: rotate(0deg) scale(0.1) translate(0, 0px); }
+    50% {-moz-transform: rotate(180deg) scale(0.2) translate(10, 20px); }
+    100% {-moz-transform: rotate(360deg) scale(0.1) translate(0, -0px);}
 }
 @-webkit-keyframes spin {
-    0% {-webkit-transform: rotate(0deg) scale(0.1); }
-    50% {-webkit-transform: rotate(180deg) scale(0.2); }
-    100% {-webkit-transform: rotate(360deg) scale(0.1); }
+    0% {-webkit-transform: rotate(0deg) scale(0.1) translate(0, 0px); }
+    50% {-webkit-transform: rotate(180deg) scale(0.2) translate(10px, 20px); }
+    100% {-webkit-transform: rotate(360deg) scale(0.1) translate(0, -0px); }
 }
